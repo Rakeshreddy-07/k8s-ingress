@@ -41,7 +41,7 @@ metadata:
     alb.ingress.kubernetes.io/scheme: internet-facing
     alb.ingress.kubernetes.io/target-type: ip
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTPS": 443}]'
-    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:361769572747:certificate/7a388918-9d90-44dd-9247-a7827fb938af
+    alb.ingress.kubernetes.io/certificate-arn: arn:aws:acm:us-east-1:361769572747:certificate/751bc9ac-a1c0-4f12-9f65-3b1dcfd1b71d
     alb.ingress.kubernetes.io/group.name: joindevops
 spec:
   ingressClassName: alb
